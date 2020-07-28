@@ -15,3 +15,5 @@ Don't ask me questions like that! I'm a hacker, bro! I just knock things togethe
 
 # Resources 📚
 Looks like I might need to head to the bookstore! This section will eventually contain relevant resources for achieving the outcome of this project.
+
+- Using Go to call the Windows API: https://medium.com/@justen.walker/breaking-all-the-rules-using-go-to-call-windows-api-2cbfd8c79724
