@@ -17,3 +17,4 @@ Don't ask me questions like that! I'm a hacker, bro! I just knock things togethe
 
 # Resources 📚
 Looks like I might need to head to the bookstore! This section will eventually contain relevant resources for achieving the outcome of this project.
+- https://fsharp.org/learn/index.html
