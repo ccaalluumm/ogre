@@ -10,9 +10,7 @@ Part of smoothing out the wrinkles in Windows is to often revert to a fresh inst
 # How? 👨🏼‍💻
 Don't ask me questions like that! I'm a hacker, bro! I just knock things together and it works! But in all seriousness, this project is not intended to be anything professional. The goal of the project (not the software itself) is twofold:
 
-1. To learn:
-  * F#
-  * The Windows API
+1. To learn F# and The Windows API
 2. To build a tool that helps at least one person, even if that sole person is myself
 
 # Resources 📚
