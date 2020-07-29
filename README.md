@@ -1,5 +1,5 @@
 # Ogre 👹
-A simple downloader agent written in Go. The goal of this project is to have a single binary that, when run on a Windows 10 machine, will download and install a number programs useful for development.
+A simple downloader agent written in F#. The goal of this project is to have a single binary that, when run on a Windows 10 machine, will download and install a number programs useful for development.
 Why is it called Ogre? Well, because it's ugly, stupid! Just like Windows 10! 
 
 # Why? 🕵🏻‍♂️
@@ -10,10 +10,10 @@ Part of smoothing out the wrinkles in Windows is to often revert to a fresh inst
 # How? 👨🏼‍💻
 Don't ask me questions like that! I'm a hacker, bro! I just knock things together and it works! But in all seriousness, this project is not intended to be anything professional. The goal of the project (not the software itself) is twofold:
 
-1. To learn Golang
+1. To learn:
+1.1 F#
+1.2 The Windows API
 2. To build a tool that helps at least one person, even if that sole person is myself
 
 # Resources 📚
 Looks like I might need to head to the bookstore! This section will eventually contain relevant resources for achieving the outcome of this project.
-
-- Using Go to call the Windows API: https://medium.com/@justen.walker/breaking-all-the-rules-using-go-to-call-windows-api-2cbfd8c79724
