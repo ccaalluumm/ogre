@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Callum\\Documents\\GitHub\\ogre\\ogre.fsproj": {}
+    "C:\\Users\\Callum\\Documents\\GitHub\\Ogre\\ogre.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\Callum\\Documents\\GitHub\\ogre\\ogre.fsproj": {
+    "C:\\Users\\Callum\\Documents\\GitHub\\Ogre\\ogre.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Callum\\Documents\\GitHub\\ogre\\ogre.fsproj",
+        "projectUniqueName": "C:\\Users\\Callum\\Documents\\GitHub\\Ogre\\ogre.fsproj",
         "projectName": "ogre",
-        "projectPath": "C:\\Users\\Callum\\Documents\\GitHub\\ogre\\ogre.fsproj",
+        "projectPath": "C:\\Users\\Callum\\Documents\\GitHub\\Ogre\\ogre.fsproj",
         "packagesPath": "C:\\Users\\Callum\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Callum\\Documents\\GitHub\\ogre\\obj\\",
+        "outputPath": "C:\\Users\\Callum\\Documents\\GitHub\\Ogre\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Callum\\AppData\\Roaming\\NuGet\\NuGet.Config",

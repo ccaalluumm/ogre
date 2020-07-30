@@ -113,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Callum\\Documents\\GitHub\\ogre\\ogre.fsproj",
+      "projectUniqueName": "c:\\Users\\Callum\\Documents\\GitHub\\Ogre\\ogre.fsproj",
       "projectName": "ogre",
-      "projectPath": "C:\\Users\\Callum\\Documents\\GitHub\\ogre\\ogre.fsproj",
+      "projectPath": "c:\\Users\\Callum\\Documents\\GitHub\\Ogre\\ogre.fsproj",
       "packagesPath": "C:\\Users\\Callum\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Callum\\Documents\\GitHub\\ogre\\obj\\",
+      "outputPath": "c:\\Users\\Callum\\Documents\\GitHub\\Ogre\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Callum\\AppData\\Roaming\\NuGet\\NuGet.Config",

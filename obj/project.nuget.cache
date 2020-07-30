@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "urFx8+ohTSUH4M3M+ODDJ1uHjLnP4NzqFrHLfXj2S2QoJUzCMz3iWbJmqy1DKfaqmm5f30GIwtUm+6c819wjkQ==",
+  "dgSpecHash": "ywY6Lz4SQdSbGwCKQVcgS3GEonQCAGnbXvut9O8ZNoHzwE/g/Piklf/rxgwjFs/7wm4FT3p9lQVpUspZHaVJIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Callum\\Documents\\GitHub\\ogre\\ogre.fsproj",
+  "projectFilePath": "C:\\Users\\Callum\\Documents\\GitHub\\Ogre\\ogre.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\Callum\\.nuget\\packages\\fsharp.core\\4.7.1\\fsharp.core.4.7.1.nupkg.sha512"
   ],
