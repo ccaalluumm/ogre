@@ -1,5 +1,10 @@
+# Build artifacts
 **/bin
 **/obj
+
+# Runtime artifacts
+*.exe
+
+# Visual Studio + Extensions
 **/.vs
 **/.ionide
-*.exe
