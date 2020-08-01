@@ -11,7 +11,7 @@ Part of smoothing out the wrinkles in Windows is to often revert to a fresh inst
 Don't ask me questions like that! I'm a hacker, bro! I just knock things together and it works! But in all seriousness, this project is not intended to be anything professional. The goal of the project (not the software itself) is twofold:
 
 1. To learn a bit of F#
-2. To learn some of the The Windows API
+2. To learn some of the The .NET API
 3. To learn some more about functional programming
 2. To build a tool that helps at least one person, even if that sole person is myself
 
