@@ -4,7 +4,7 @@ namespace ogre
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var programs = new Dictionary<string, string>
             {
@@ -18,6 +18,7 @@ namespace ogre
             };
 
             Downloader downloader = new Downloader();
+
             downloader.DownloadPrograms(programs);
         }
     }

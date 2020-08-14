@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Threading;
@@ -9,13 +10,17 @@ namespace ogre
     {
         public void DownloadPrograms(Dictionary<string, string> programs)
         {
+            var downloads_folder = Registry.GetValue(@"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders", "{374DE290-123F-4565-9164-39C4925E467B}", string.Empty).ToString();
+
+            // Create a webclient object and register an event handler for download progress
             WebClient downloader = new WebClient();
             downloader.DownloadProgressChanged += new DownloadProgressChangedEventHandler(PrintDownloadProgress);
             
             foreach(var program in programs)
             {
                 Console.WriteLine("Downloading " + program.Key);
-                downloader.DownloadFileAsync(new Uri(program.Value), program.Key);
+
+                downloader.DownloadFileAsync(new Uri(program.Value), downloads_folder + "\\" + program.Key);
 
                 while (downloader.IsBusy) { };
 
@@ -28,7 +33,6 @@ namespace ogre
         private void PrintDownloadProgress(object sender, DownloadProgressChangedEventArgs e)
         {
             WriteProgressBar(e.ProgressPercentage, true);
-            Thread.Sleep(50);
         }
 
         /// <summary>
