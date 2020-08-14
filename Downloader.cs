@@ -8,6 +8,10 @@ namespace ogre
 {
     class Downloader
     {
+        /// <summary>
+        /// Iterates through the programs dictionary and uses a web client to download each one to the downloads directory.
+        /// </summary>
+        /// <param name="programs">Dictionary mapping program names to their respective download links</param>
         public void DownloadPrograms(Dictionary<string, string> programs)
         {
             var downloads_folder = Registry.GetValue(@"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Shell Folders", "{374DE290-123F-4565-9164-39C4925E467B}", string.Empty).ToString();
