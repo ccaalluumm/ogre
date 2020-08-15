@@ -1,4 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Diagnostics;
+using System.Management.Automation;
+using System.Net;
 
 namespace ogre
 {
@@ -6,21 +9,20 @@ namespace ogre
     {
         static void Main()
         {
-            var programs = new Dictionary<string, string>
-            {
-                { "vscode.exe", "https://aka.ms/win32-x64-user-stable" },
-                { "git.exe", "https://github.com/git-for-windows/git/releases/download/v2.28.0.windows.1/Git-2.28.0-64-bit.exe" },
-                { "spotify.exe", "https://download.scdn.co/SpotifySetup.exe" },
-                { "razer_synapse", "http://rzr.to/synapse-3-pc-download"},
-                { "corsair_icue", "https://downloads.corsair.com/Files/CUE/iCUESetup_3.31.81_release.msi" },
-                { "nvidia_geforce", "https://us.download.nvidia.com/GFE/GFEClient/3.20.4.14/GeForce_Experience_v3.20.4.14.exe" },
-                { "nodejs.exe", "https://nodejs.org/dist/v12.18.3/node-v12.18.3-x64.msi" },
-                { "chocolatey.ps1", "https://chocolatey.org/install.ps1" }
-            };
 
-            Downloader downloader = new Downloader();
+            Console.WriteLine("Downloading Chocolatey");
 
-            downloader.DownloadPrograms(programs);
+            WebClient client = new WebClient();
+                
+            string chocolatey_install_script = client.DownloadString("https://chocolatey.org/install.ps1");
+
+            PowerShell ps = PowerShell.Create();
+
+            //ps.AddCommand("Set-ExecutionPolicy").AddParameter("AllSigned").Invoke();
+
+            ps.AddScript(chocolatey_install_script).Invoke();
+
+            ps.AddCommand("choco").AddParameter("?").Invoke();
 
             // Install Chocolately package manager
 
